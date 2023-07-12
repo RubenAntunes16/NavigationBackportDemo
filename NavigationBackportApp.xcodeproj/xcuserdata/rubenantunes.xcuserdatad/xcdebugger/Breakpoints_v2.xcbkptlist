@@ -80,6 +80,36 @@
                   endingLineNumber = "18"
                   offsetFromSymbolStart = "428">
                </Location>
+               <Location
+                  uuid = "3F92F377-1798-40EF-A688-2F475FE79805 - 6be29dbad14f4bba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationBackportApp.AppStateParser.parse(Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;) -&gt; ()"
+                  moduleName = "NavigationBackportApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rubenantunes/Desktop/MyProjects/NavigationBackportApp/NavigationBackportDemo/NavigationBackportApp/POT/AppStateParser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "428">
+               </Location>
+               <Location
+                  uuid = "3F92F377-1798-40EF-A688-2F475FE79805 - 6be29dbad14f4bba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationBackportApp.AppStateParser.parse(Swift.Dictionary&lt;Swift.AnyHashable, Any&gt;) -&gt; ()"
+                  moduleName = "NavigationBackportApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rubenantunes/Desktop/MyProjects/NavigationBackportApp/NavigationBackportDemo/NavigationBackportApp/POT/AppStateParser.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "620">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

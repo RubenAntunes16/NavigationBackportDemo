@@ -9,46 +9,49 @@ import SwiftUI
 import NavigationBackport
 
 struct RootView: View {
-    @EnvironmentObject var navigation: PathNavigator
+    @State var navigation = NBNavigationPath()
 
     var body: some View {
-        VStack {
-            List {
-                Section("Navigation BackPort Github") {
-                    Text("https://github.com/johnpatrickmorgan/NavigationBackport")
-                        .multilineTextAlignment(.center)
-                }
+        NBNavigationStack(path: $navigation) {
+            VStack {
+                List {
+                    Section("Navigation BackPort Github") {
+                        Text("https://github.com/johnpatrickmorgan/NavigationBackport")
+                            .multilineTextAlignment(.center)
+                    }
 
-                Section("Navigation") {
-                    Button {
-                        navigation.path.append(Destination.seriesList)
-                    } label: {
-                        Text("Series List")
-                    }
-                    Button {
-                        navigation.path.append(Destination.settings)
-                    } label: {
-                        Text("Settings")
+                    Section("Navigation") {
+                        Button {
+                            navigation.append(Destination.seriesList)
+                        } label: {
+                            Text("Series List")
+                        }
+                        Button {
+                            navigation.append(Destination.settings)
+                        } label: {
+                            Text("Settings")
+                        }
                     }
                 }
-            }
-            .navigationTitle("Root View")
-            .nbNavigationDestination(for: Destination.self) { destination in
-                switch destination {
-                case .seriesList:
-                    SeriesListView()
-                case .serieDetail(let serie):
-                    SerieDetailView(serie: serie)
-                case .messageDelivery(let message):
-                    MessageDeliveryView(message: message)
-                case .settings:
-                    SettingsView()
+                .navigationTitle("Root View")
+                .nbNavigationDestination(for: Destination.self) { destination in
+                    switch destination {
+                    case .seriesList:
+                        SeriesListView()
+                    case .serieDetail(let serie):
+                        SerieDetailView(serie: serie)
+                    case .messageDelivery(let message):
+                        MessageDeliveryView(message: message)
+                    case .settings:
+                        SettingsView()
+                    }
                 }
-            }
-            .onAppear {
-                AppState.shared.path = navigation
+//                .onAppear {
+//                    AppState.shared.path = navigation
+//                }
             }
         }
+
 
     }
 }

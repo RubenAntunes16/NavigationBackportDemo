@@ -12,14 +12,14 @@ import NavigationBackport
 struct NavigationBackportApp: App {
     @UIApplicationDelegateAdaptor private var appDelegate: AppDelegate
     @StateObject var state = AppState.shared
-    @State var path = NBNavigationPath()
+//    @State var path = NBNavigationPath()
 
     var body: some Scene {
         WindowGroup {
-            NBNavigationStack(path: $path) {
+            //NBNavigationStack(path: $path) {
                 RootView()
                     .environmentObject(AppState.shared.series)
-            }
+            //}
         }
     }
 }
