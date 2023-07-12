@@ -1,0 +1,52 @@
+{
+    "Simulator Target Bundle": "rubenantunes.bliss.NavigationBackportApp",
+    "aps": {
+        "alert": "Series Received",
+        "sound": "default",
+        "badge": 1
+    },
+    "series": [
+        {
+            "title": "Stranger Things",
+            "year": "2016",
+            "description": "A group of kids in a small town uncover dark secrets when they encounter a mysterious girl with telekinetic powers.",
+            "actors": ["Millie Bobby Brown", "Finn Wolfhard", "Gaten Matarazzo", "Caleb McLaughlin"]
+        },
+        {
+            "title": "Breaking Bad",
+            "year": "2008",
+            "description": "A high school chemistry teacher turned methamphetamine manufacturer partners with a former student to build a drug empire.",
+            "actors": ["Bryan Cranston", "Aaron Paul", "Anna Gunn", "Dean Norris"]
+        },
+        {
+            "title": "Game of Thrones",
+            "year": "2011",
+            "description": "A power struggle for the Iron Throne unfolds in the Seven Kingdoms, as noble families and mythical creatures vie for control.",
+            "actors": ["Emilia Clarke", "Kit Harington", "Peter Dinklage", "Lena Headey"]
+        },
+        {
+            "title": "Friends",
+            "year": "1994",
+            "description": "A group of six friends living in New York City navigate their personal and professional lives, sharing laughter and love.",
+            "actors": ["Jennifer Aniston", "Courteney Cox", "Lisa Kudrow", "Matt LeBlanc"]
+        },
+        {
+            "title": "The Crown",
+            "year": "2016",
+            "description": "A historical drama that follows the reign of Queen Elizabeth II, showcasing the challenges and triumphs of her monarchy.",
+            "actors": ["Olivia Colman", "Tobias Menzies", "Helena Bonham Carter", "Josh O'Connor"]
+        },
+        {
+            "title": "The Office",
+            "year": "2005",
+            "description": "A mockumentary-style sitcom that depicts the everyday lives of office employees, filled with humorous and awkward situations.",
+            "actors": ["Steve Carell", "Rainn Wilson", "John Krasinski", "Jenna Fischer"]
+        },
+        {
+            "title": "Sherlock",
+            "year": "2010",
+            "description": "A modern-day adaptation of Arthur Conan Doyle's detective stories, featuring the brilliant detective Sherlock Holmes and his loyal companion, Dr. John Watson.",
+            "actors": ["Benedict Cumberbatch", "Martin Freeman", "Andrew Scott", "Una Stubbs"]
+        }
+    ]
+}

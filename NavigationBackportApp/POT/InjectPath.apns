@@ -1,0 +1,16 @@
+{
+    "Simulator Target Bundle": "rubenantunes.bliss.NavigationBackportApp",
+    "aps": {
+        "alert": "Series Received",
+        "sound": "default",
+        "badge": 1
+    },
+    {
+      "destinations": [
+        {
+          "type": "seriesList"
+        },
+      ]
+    }
+}
+
